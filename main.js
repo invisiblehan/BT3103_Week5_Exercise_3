@@ -29,6 +29,7 @@ var app = new Vue({
       };
       this.videos.push(obj);
     },
+    //NEW
     deleteVideo: function(video) {
       this.videos.splice(video, 1);
     }
